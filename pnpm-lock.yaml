@@ -1,5 +1,9 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 dependencies:
   '@types/node':
     specifier: 20.6.0
@@ -17,8 +21,8 @@ dependencies:
     specifier: 13.4.19
     version: 13.4.19(eslint@8.49.0)(typescript@5.2.2)
   knip:
-    specifier: 2.25.2
-    version: 2.25.2
+    specifier: 0.0.0-newurl.0
+    version: 0.0.0-newurl.0
   next:
     specifier: 13.4.19
     version: 13.4.19(react-dom@18.2.0)(react@18.2.0)
@@ -641,6 +645,7 @@ packages:
   /clone@1.0.4:
     resolution: {integrity: sha512-JQHZ2QMW6l3aH/j6xCqQThY/9OH4D/9ls34cgkUBiEeocRTU04tHfKPBsUK1PqZCUQM7GiA0IIXJSuXHI64Kbg==}
     engines: {node: '>=0.8'}
+    requiresBuild: true
     dev: false
     optional: true
 
@@ -720,6 +725,7 @@ packages:
 
   /defaults@1.0.4:
     resolution: {integrity: sha512-eFuaLoy/Rxalv2kr+lqMlUnrDWV+3j4pljOIJgLIhI058IQfWJ7vXhyEIHu+HtC738klGALYxOKDO0bQP3tg8A==}
+    requiresBuild: true
     dependencies:
       clone: 1.0.4
     dev: false
@@ -1735,8 +1741,8 @@ packages:
       json-buffer: 3.0.1
     dev: false
 
-  /knip@2.25.2:
-    resolution: {integrity: sha512-vtssyozN9VeI33KqzCS2su0RA3tL7eGwJRSWRmFlZELTPUYpbddcusdoCcIIijVyZt5Y7ThapSPaLT4clu6GeA==}
+  /knip@0.0.0-newurl.0:
+    resolution: {integrity: sha512-+n283Hx3NLUHHLYGdrNd52CzlwXfb9XkM0nnKwNWHoP1YSRZKYXa76ZCDI58GPUxIAyqRdUn+6feX0dH1WKkaw==}
     engines: {node: '>=16.17.0 <17 || >=18.6.0'}
     hasBin: true
     dependencies:
